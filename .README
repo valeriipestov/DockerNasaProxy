@@ -1,0 +1,5 @@
+docker run -d -p 8082:8080 tboychuk/lmps
+docker run -p 6379:6379 -d redis
+
+
+
