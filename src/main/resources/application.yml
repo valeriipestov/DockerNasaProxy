@@ -1,0 +1,11 @@
+nasa:
+  feign:
+    url: "http://localhost:8082"
+    name: "nasa"
+
+spring:
+  cache:
+    type: redis
+  redis:
+    port: 6379
+    host: "localhost"
